@@ -1,4 +1,4 @@
-#!/usr/bin/bin/env 
+#!/usr/bin/env fish
 for i in (seq 1 128)
     set BRANCH_NAME "shark-branch-$i"
     git checkout -b $BRANCH_NAME
