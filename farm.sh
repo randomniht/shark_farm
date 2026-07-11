@@ -1,3 +1,5 @@
+#!/bin/bash
+
 for i in {1..128}
 do
   BRANCH_NAME="shark-branch-$i"
